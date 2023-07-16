@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.App {
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtq52k2itfQUrMgLZHE3Wa3Qe2F092LHegDetL2ulzx-gg0_zNGSzfQ8pgbafNN6dit-8&usqp=CAU");
+
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.App-header {
+  background-color: #e6ecf9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.custom-buttons button {
+  font-size: 24px;
+  margin-bottom: 24px;
+ 
+  padding: 12px;
+  font-weight: bold;
+  margin-right: 16px;
+  border-radius: 4px;
+   
+
+}
+
+label{
+  text-decoration-color: rgb(224, 233, 233);
+  color: #b46bac;
+   font-weight: bold;
+}
+
+input {
+  position: relative;
+  left: 10px;
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 10px;
+  width:50%
+}
+input::placeholder{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.description {
+  background-color: rgb(19, 19, 129);
+  border-radius: 24px;
+  padding: 24px;
+
+  margin-bottom: 64px;
+}
+
+.greeting {
+  color: rgb(5, 174, 8);
+}
+
+.app-container {
+  display: wrap;
+  flex-direction: row;
+  gap: 5px;
+  padding: 3rem;
+}
+
+table {
+  border-collapse:collapse;
+  width: 100%
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 30px;
+  font-size: 20px;
+}
+
+th {
+  background-color: rgb(7, 38, 94);
+}
+
+td {
+  background-color: rgb(68, 138, 133);
+}
+
+form {
+  display:wrap;
+  gap: 5px;
+}
+
+
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+.custom-1-btn{
+  width: 370px;
+}
+
+
+.App {
+  text-align: center;
+}
+button {
+  font-size: 36px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+file{
+  border-radius: 16px;
+}
+
